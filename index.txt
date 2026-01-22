@@ -1,0 +1,26 @@
+I'll create a real time chat application using Node.js with traditional JavaScript syntax.
+
+I've created a real-time chat application using Node.js with traditional JavaScript syntax. The application uses:
+
+**Built-in modules only:**
+- `http` - for the web server
+- `fs` - for reading the HTML file
+- `path` - for file path operations
+
+**Features:**
+- Real-time messaging using Server-Sent Events (SSE)
+- No external dependencies or modules
+- Traditional JavaScript syntax (var, function declarations, no arrow functions)
+- Message history for new clients
+- Username support
+- Timestamps for each message
+
+**To run this application:**
+
+1. Save the server code as `server.js`
+2. Extract the HTML from the comments and save it as `client.html` in the same directory
+3. Run `node server.js`
+4. Open your browser to `http://localhost:3000`
+5. Open multiple browser tabs to test the real-time chat
+
+The application broadcasts messages to all connected clients in real-time. Each message shows the username, timestamp, and message content.
